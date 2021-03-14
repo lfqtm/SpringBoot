@@ -1,0 +1,22 @@
+user:
+  user-name: zhangsan
+  boss: false
+  birth: 2019/12/12 20:12:33
+  age: 18
+  interests: [篮球,足球]
+  animal:
+    - jerry
+    - mario
+  score:
+    english:
+      first: 30
+      second: 40
+      third: 50
+    math: [131,140,148]
+    chinese: {first: 128, second: 136}
+  salarys: [3999,4999,8999.99]
+  all-pets:
+    sick:
+      - {name: tom}
+      - {name: jerry}
+    health: [{name: mario}]

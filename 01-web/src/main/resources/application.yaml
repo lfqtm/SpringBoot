@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    contentnegotiation:
+      favor-parameter: true #开启请求参数内容协商模式
+
+#    static-path-pattern: /res/** #   静态资源访问前缀
+  web:
+    resources:
+      static-locations: classpath:/abc/

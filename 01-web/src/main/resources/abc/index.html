@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome</title>
+</head>
+<body>
+测试rest风格
+<form action="/user" method="get">
+    <input value="rest-get 提交" type="submit"/>
+</form>
+<form action="/user" method="post">
+    <input value="rest-post 提交" type="submit"/>
+</form>
+<form action="/user" method="post">
+    <input name="_m" type="hidden" value="delete"/>
+    <input value="rest-delete 提交" type="submit"/>
+</form>
+<form action="/user" method="post">
+    <input name="_m" type="hidden" value="put"/>
+    <input value="rest-put 提交" type="submit"/>
+</form>
+
+
+
+</body>
+</html>
